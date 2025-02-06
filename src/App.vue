@@ -5,7 +5,7 @@
     {{ showSmartApply ? "Hide" : "Show" }} Smart Apply
   </button>
 
-  <div v-if="showSmartApply" class="smart-apply" style="">
+  <div v-if="showSmartApply" class="smart-apply">
     <smart-apply />
   </div>
 </template>
@@ -41,7 +41,6 @@ export default {
   margin-top: 60px;
 }
 .smart-apply {
-  width: 30%;
   border: 1px solid black;
   background-color: white;
   position: absolute;
